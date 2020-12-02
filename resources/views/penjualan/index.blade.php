@@ -34,7 +34,7 @@
 									<td>{{ $penjualan->harga_satuan }}</td>
 									<td>{{ $penjualan->harga_total }}</td>
 									<td><a href="{{route('penjualan.delete',$penjualan->id)}}" class="btn btn-danger">Delete</a> 
-										<a href="{{route('penjualan.edit',$penjualan->id)}}" class="btn btn-success">Edit</a>
+										
 									</td>
 								</tr>
 								@endforeach
